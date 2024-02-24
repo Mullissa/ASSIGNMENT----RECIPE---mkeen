@@ -118,3 +118,19 @@ nav li {
     color: #EB5428;
     font-weight: bold;
 }
+
+footer {
+    display: grid;
+    justify-content: left;
+}
+
+footer p {
+    grid-row: 2 / 2;
+    font-weight: bold;
+}
+
+footer img {
+    grid-row: 1 / 2;
+    width: 150px;
+    height: auto;
+}
